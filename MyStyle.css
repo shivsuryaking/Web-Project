@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.webpage-header {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    background: #ecc4d5;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px; 
+    box-sizing: border-box;
+    box-shadow:0px 5px 5px rgb(73, 75, 75);
+}
+
+.webpage-top-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.webpage-icon {
+    display: flex;
+    vertical-align: bottom;
+}
+
+.webpage-icon img {
+    color: rgb(255, 255, 255);
+    width: 80px;
+    gap: 4px;
+    vertical-align: middle;
+}
+
+.webpage-icon i {
+    font-size: 50px;
+    margin-top: -10px;
+    text-align:center;
+    text-shadow: 0 3px 3px #fff;
+}
+
+.webpage-menus{
+    position: fixed;
+    top: 10px;
+    right: 25px;
+    margin-top: px;
+    margin-right: 1px;
+    width: 50%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; 
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.webpage-menus menu{
+    padding: 20px;
+    overflow: hidden;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;
+}
+
+.webpage-menus menu li{
+    display: inline-block;
+    padding: 8px 15px;
+    background: #f7e5f5;
+    color: rgb(228, 23, 23);
+    margin-left: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+    list-style: none;
+    font-size: 15px;
+    font-family: arial;
+}
+
+.webpage-menus menu li:hover{
+    background: #b80e8d;
+    color: #fff;
+}
+
+.webpage-main {
+    background-image: url(bg.jpg);
+    background-repeat:no-repeat ;
+    background-size: 100%;
+    background-size: cover;
+    backface-visibility: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.webpage-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items:center;  
+    text-align:center; 
+    padding-left: 100px;
+}
+
+.webpage-main-content h1 {
+    font-size: larger;
+    font-family:'Times New Roman', Times, serif;
+}
+
+input[type="button"] {
+    display: block; 
+    margin: 20px auto; 
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+::-webkit-scrollbar-track {
+    background: #f1f1f100;
+}
+  
+::-webkit-scrollbar-thumb {
+    background: rgb(71, 71, 71);
+}
+  
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

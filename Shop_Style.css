@@ -1,0 +1,77 @@
+body {
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+.webpage-shop-main {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    height: 100vh;
+    overflow:auto;
+}
+.webpage-shop-catalog{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: flex-start; /* Align items to flex-start */
+    width: 100%; 
+    max-width: 1200px; /* Optionally set a max-width to limit the width of the catalog */
+    margin-top: 20px; 
+    font-size: 15px;
+    max-height: calc(100vh - 100px); 
+    overflow-x: auto;
+}
+.webpage-shop-item {
+    text-align: center;
+    min-width: 300px;
+    margin: 50px;
+    border: 1px solid #000000; /* Add border around each item */
+    border-radius: 5px;
+    padding: 20px;
+    background-color: aliceblue;
+}
+
+.webpage-shop-item img {
+    width: 200px;
+    border-radius: 5px;
+}
+.h3 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.quantity {
+    display: flex;
+    background-color: #e2e2e2;
+    justify-content: center;
+    width: 50px;
+    align-items:center ;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    border: 1px solid #000000; /* Add border around each item */
+    
+
+}
+.quantity-input {
+    width: 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+    background: transparent;
+    border: none;
+    
+}
+.increment{
+    border: none;
+    width: 15px;
+    background-color: #c0bfbf;
+}
+.decrement{
+    border: none;
+    width: 15px;
+    background-color: #c0bfbf;
+}
+
+

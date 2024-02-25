@@ -3,23 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Celestial Flowers</title>
+    <title>Celestial Chat</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="icon" href="Resources/Icon.png" type="image/gif" sizes="16x16">
-
+	<link rel="icon" href="Icon.png" type="image/gif" sizes="16x16">
 	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;500;700&family=Oswald:wght@300;500&family=Source+Sans+Pro:wght@300;400;600&display=swap"
 	rel="stylesheet">
 	<script src="https://kit.fontawesome.com/e786f44d60.js" crossorigin="anonymous">
 	</script>
 	<link rel="stylesheet" href="MyStyle.css">
+
 </head>
 <body>
-    <header class="webpage-header">
+	<header class="webpage-header">
         <div class="container">
             <div class="webpage-top-bar">
                 <div class="webpage-icon">
                     <i class="webpage-name">
-                        <img src="Resources/Icon.png" alt="">Celestial Flowers
+                        <img src="Icon.png" alt="">Celestial Flowers
                     </i>
                 </div>
                 <div class="webpage-menus">
@@ -37,21 +37,25 @@
             </div>
         </div>
     </header>
-    <main class="webpage-main" >
-        <P class="webpage-main-content">
-            <h1> Celestial Flowers </h1>
-            <h5>Flowers that has been swaying the hearts of all womens</h5>
-            <h5>grown on the soil of phaltan which is rich in nutrients</h5>
-            <h5>we are ready to be part of your celebration </h5>
-        </P>
-        <input id="learnMoreButton" type="button" value="Learn more">
+    <main>
+        <div class="chat-container">
+            <div class="chat-box">
+                <div class="chat-message">
+                    <div class="message-sender">John</div>
+                    <div class="message-text">Hello there!</div>
+                </div>
+                <div class="chat-message">
+                    <div class="message-sender">Alice</div>
+                    <div class="message-text">Hi John!</div>
+                </div>
+                <!-- More chat messages go here -->
+            </div>
+            <div class="user-input">
+                <input type="text" id="message-input" placeholder="Type your message...">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
     </main>
-    <script>
-        document.getElementById("learnMoreButton").addEventListener("click", function() {
-            alert("Button clicked!");
-            window.location.href = "About.html";
-        });
-    </script>
-    
+    <script src="chat.js"></script>
 </body>
 </html>

@@ -1,0 +1,197 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celestial Flowers</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	<link rel="icon" href="Resources/Icon.png" type="image/gif" sizes="16x16">
+
+	<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300;500;700&family=Oswald:wght@300;500&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+	rel="stylesheet">
+	<script src="https://kit.fontawesome.com/e786f44d60.js" crossorigin="anonymous">
+	</script>
+
+	<link rel="stylesheet" href="payment.css"> 
+	<link rel="stylesheet" href="MyStyle.css">
+</head> 
+
+<body> 
+	<header class="webpage-header">
+        <div class="container">
+            <div class="webpage-top-bar">
+                <div class="webpage-icon">
+                    <i class="webpage-name">
+                        <img src="Resources/Icon.png" alt="">Celestial Flowers
+                    </i>
+                </div>
+                <div class="webpage-menus">
+                    <menu>
+                        <li id="Home" ><a style="text-decoration: none" href="Web_Page.html">Home</a></li>
+                        <li id="Gallery"><a style="text-decoration: none" href="Gallery.html">Gallery</a></li>
+                        <li id="Shop"><a style="text-decoration: none" href="Shop.html">Shop</a></li>
+                        <li id="About"><a style="text-decoration: none" href="About.html">About</a></li>
+                        <li id="Contact"><a style="text-decoration: none" href="Contact.html">Contact</a></li>
+                        <li id="Blog"><a style="text-decoration: none" href="Blog.html">Blog</a></li>
+                        <li id="Chat"><a style="text-decoration: none" href="Chat.html">Chat</a></li>
+                        <li id="Cart"><a style="text-decoration: none" href="Cart.html">Cart</a></li>
+                    </menu>
+                </div>
+            </div>
+        </div>
+    </header>
+	<div class="payment-container"> 
+
+		<form action="#"> 
+
+			<div class="row"> 
+
+				<div class="col"> 
+					<h3 class="title"> 
+						Billing Address 
+					</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Full Name: 
+						</label> 
+						<input type="text" id="name"
+							placeholder="Enter your full name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="email"> 
+							Email: 
+						</label> 
+						<input type="text" id="email"
+							placeholder="Enter email address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="address"> 
+							Address: 
+						</label> 
+						<input type="text" id="address"
+							placeholder="Enter address"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="city"> 
+							City: 
+						</label> 
+						<input type="text" id="city"
+							placeholder="Enter city"
+							required> 
+					</div> 
+
+					<div class="flex"> 
+
+						<div class="inputBox"> 
+							<label for="state"> 
+								State: 
+							</label> 
+							<input type="text" id="state"
+								placeholder="Enter state"
+								required> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="zip"> 
+								Zip Code: 
+							</label> 
+							<input type="number" id="zip"
+								placeholder="123 456"
+								required> 
+						</div> 
+
+					</div> 
+
+				</div> 
+				<div class="col"> 
+					<h3 class="title">Payment</h3> 
+
+					<div class="inputBox"> 
+						<label for="name"> 
+							Card Accepted: 
+						</label> 
+						<img src="Resources/cards.png"
+							alt="credit/debit card image"> 
+						<img src="Resources/card.png"
+							alt="credit/debit card image"> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardName"> 
+							Name On Card: 
+						</label> 
+						<input type="text" id="cardName"
+							placeholder="Enter card name"
+							required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="cardNum"> 
+							Credit Card Number: 
+						</label> 
+						<input type="text" id="cardNum"
+							placeholder="1111-2222-3333-4444"
+							maxlength="19" required> 
+					</div> 
+
+					<div class="inputBox"> 
+						<label for="">Exp Month:</label> 
+						<select name="" id=""> 
+							<option value="">Choose month</option> 
+							<option value="January">January</option> 
+							<option value="February">February</option> 
+							<option value="March">March</option> 
+							<option value="April">April</option> 
+							<option value="May">May</option> 
+							<option value="June">June</option> 
+							<option value="July">July</option> 
+							<option value="August">August</option> 
+							<option value="September">September</option> 
+							<option value="October">October</option> 
+							<option value="November">November</option> 
+							<option value="December">December</option> 
+						</select> 
+					</div> 
+
+
+					<div class="flex"> 
+						<div class="inputBox"> 
+							<label for="">Exp Year:</label> 
+							<select name="" id=""> 
+								<option value="">Choose Year</option> 
+								<option value="2023">2023</option> 
+								<option value="2024">2024</option> 
+								<option value="2025">2025</option> 
+								<option value="2026">2026</option> 
+								<option value="2027">2027</option> 
+							</select> 
+						</div> 
+
+						<div class="inputBox"> 
+							<label for="cvv">CVV</label> 
+							<input type="number" id="cvv"
+								placeholder="1234" required> 
+						</div> 
+					</div> 
+
+				</div> 
+
+			</div> 
+
+			<input type="submit" value="Proceed to Checkout"
+				class="submit_btn"> 
+		</form> 
+
+	</div> 
+	<script type="text/javascript" src="index.js"></script> 
+</body> 
+
+</html>

@@ -16,9 +16,9 @@ body {
     flex-wrap: wrap;
     padding-top: 50px;
     justify-content: center;
-    align-items: flex-start; /* Align items to flex-start */
+    align-items: flex-start; 
     width: 100%; 
-    max-width: 1200px; /* Optionally set a max-width to limit the width of the catalog */
+    max-width: 1200px;
     margin-top: 20px; 
     font-size: 15px;
     max-height: calc(100vh - 100px); 
@@ -28,7 +28,7 @@ body {
     text-align: center;
     min-width: 300px;
     margin: 50px;
-    border: 1px solid #000000; /* Add border around each item */
+    border: 1px solid #000000;
     border-radius: 5px;
     padding: 20px;
     background-color: aliceblue;
@@ -51,7 +51,7 @@ body {
     margin-left: 120px;
     margin-bottom: 10px;
     margin-top: 5px;
-    border: 1px solid #000000; /* Add border around each item */
+    border: 1px solid #000000; 
     
 
 }

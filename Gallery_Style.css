@@ -19,9 +19,9 @@ body {
     flex-wrap: wrap;
     padding-top: 50px;
     justify-content: space-around;
-    align-items: flex-start; /* Align items to flex-start */
-    width: 100%; /* Ensure the catalog fills the entire width of the webpage-main container */
-    max-width: 1200px; /* Optionally set a max-width to limit the width of the catalog */
+    align-items: flex-start; 
+    width: 100%;
+    max-width: 1200px; 
     margin-top: 20px; 
     font-size: 15px;
     max-height: calc(100vh - 100px); 
@@ -32,7 +32,7 @@ body {
     text-align: center;
     max-width: 300px;
     margin: 40px;
-    border: 1px solid #000000; /* Add border around each item */
+    border: 1px solid #000000; 
     border-radius: 5px;
     padding: 5px;
     background-color: aliceblue;
